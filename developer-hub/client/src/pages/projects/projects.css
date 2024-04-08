@@ -1,0 +1,36 @@
+.top-toggler {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.top-toggler button {
+  margin: 0 0.3rem;
+  padding: 4px 10px;
+  border: 1px solid burlywood;
+  cursor: pointer;
+  color: black;
+  font-size: 18px;
+  border-radius: 2px;
+}
+.proj_no_log {
+  width: 100%;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+.proj_no_log h3 {
+  text-align: center;
+  padding-top: 4rem;
+}
+.proj_no_log img {
+  width: 300px;
+}
+.proj_no_log button {
+  width: 200px;
+  margin-top: 1rem;
+}
