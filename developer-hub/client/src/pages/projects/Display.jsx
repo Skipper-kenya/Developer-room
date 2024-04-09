@@ -37,7 +37,7 @@ const Display = ({ allProjects, myProject, spin }) => {
                     const { name, description, link, skills, ownerName } =
                       project;
                     return (
-                      <Grid key={idx} item xs={6} sm={6} md={4} lg={3}>
+                      <Grid key={idx} item xs={12} sm={6} md={4} lg={3}>
                         <Card>
                           <CardHeader
                             title={name}
